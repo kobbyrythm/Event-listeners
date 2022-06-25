@@ -27,22 +27,14 @@ function CheckAge() {
 
 
   if (AskAge < 18) {
-
-    Button1.innerHTML = Askfirstname;
-
-  } else {
-
-    Button1.innerHTML = Button1.innerHTML;
-
-  }
-
-
-
-  Button1.addEventListener("click", () => {
+    Button1.addEventListener("click", () => {
 
 
     Button1.innerHTML = Askfirstname;
 
   });
+
+  } 
+
 
 } 
